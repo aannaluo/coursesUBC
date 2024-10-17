@@ -8,17 +8,10 @@ Implemented black box testing for our four main functions (addDataset, removeDat
 Implemented functions for sections and courses. 
 Allows for querying following EBNF specifications.
 
-> **_NOTE:_**  The note content.
+> **_NOTE:_**
 QUERY ::='{' BODY ', ' OPTIONS '}'
-
-
-
 // Note: a BODY with no FILTER (i.e. WHERE:{}) matches all entries.
-
 BODY ::= 'WHERE:{' FILTER? '}'
-
-
-
 FILTER ::= LOGICCOMPARISON | MCOMPARISON | SCOMPARISON | NEGATION
 
 
