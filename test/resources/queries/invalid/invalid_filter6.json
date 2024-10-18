@@ -1,0 +1,14 @@
+{
+	"title": "Invalid filter key",
+	"input": {
+		"WHERE": {
+			"NOT": {
+					"UNKNOWN": {
+						"sections_dept": "CPSC"
+					}
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

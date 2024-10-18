@@ -1,0 +1,19 @@
+{
+	"title": "SELECT dept, avg WHERE avg > 97",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"_sections_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"_sections_dept",
+				"_sections_avg"
+			],
+			"ORDER": "_sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "Insight Error"
+}

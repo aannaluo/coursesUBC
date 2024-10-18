@@ -1,0 +1,26 @@
+{
+	"title": "Invalid type for skey",
+	"input": {
+		
+			"WHERE": {
+			  "AND": []
+			},
+			"OPTIONS": {
+			  "COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			  ],
+			  "ORDER": "sections_avg"
+			}
+		  },
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

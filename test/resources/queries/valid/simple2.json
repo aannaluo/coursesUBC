@@ -1,0 +1,41 @@
+{
+	"title": "SELECT simple",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+				  "IS": {
+					"simple_dept": "*as*"
+				  }
+				},
+				{
+				  "GT": {
+					"simple_avg": 75
+				  }
+				},
+				{
+				  "GT": {
+					"simple_year": 2012
+				  }
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"simple_dept",
+				"simple_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"simple_dept": "asia",
+			"simple_avg": 78.9
+		},
+		{
+			"simple_dept": "asia",
+			"simple_avg": 78.9
+		}
+	]
+}

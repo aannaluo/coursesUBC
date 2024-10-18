@@ -1,0 +1,19 @@
+{
+	"title": "Missing id in query keys",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"nodata_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"nodata_dept",
+				"nodata_avg"
+			],
+			"ORDER": "nodata_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

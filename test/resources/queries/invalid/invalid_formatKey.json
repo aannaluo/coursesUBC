@@ -1,0 +1,19 @@
+{
+	"title": "Query with missing _",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sectionsavg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sectionsavg"
+			],
+			"ORDER": "sectionsavg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

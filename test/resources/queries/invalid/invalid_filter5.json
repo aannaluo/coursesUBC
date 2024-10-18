@@ -1,0 +1,15 @@
+{
+	"title": "No key in IS",
+	"input": {
+		"WHERE": {
+		  "IS": {
+		  }
+	  },
+	  "OPTIONS": {
+		  "COLUMNS": [
+			  "sections_avg"
+	  ]}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}
