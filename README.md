@@ -9,6 +9,7 @@ Implemented functions for sections and courses.
 Allows for querying following EBNF specifications.
 
 > **EBNF QUERY:_**
+> 
 > QUERY ::='{' BODY ', ' OPTIONS '}'
 > 
 > // Note: a BODY with no FILTER (i.e. WHERE:{}) matches all entries.
