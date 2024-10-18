@@ -1,5 +1,5 @@
 # coursesUBC (WIP Last updated: Oct 17, 2024)
-A full stack development project that queries through historical UBC course data
+A full stack development project for CPSC 310 that queries through historical UBC course data
 
 # Checkpoint 0
 Implemented black box testing for our four main functions (addDataset, removeDataset, listDatasets, performQuery)
@@ -51,3 +51,6 @@ Allows for querying following EBNF specifications.
 > idstring ::= [^_]+ // One or more of any character, except underscore.
 >
 > inputstring ::= [^*]* // Zero or more of any character, except asterisk.
+
+
+Note: Files uploaded are the main files my project partner and I were in charge of, complete repository is not uploaded due to clutter.
