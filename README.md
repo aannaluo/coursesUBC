@@ -10,6 +10,7 @@ Implemented black box testing for our four main functions (addDataset, removeDat
 
 # Checkpoint 1
 Implemented functions for sections and courses. 
+
 Allows for querying following EBNF specifications.
 
 > **EBNF QUERY:_**
@@ -58,6 +59,7 @@ Allows for querying following EBNF specifications.
 
 # Checkpoint 2
 Extended functionality to add rooms on UBC campus
+
 Extended Querying functionality to sort by direction as well as group and aggregate results. Additionally had to extend functionality to allow rooms to be queried
 
 > **EBNF QUERY:_**
