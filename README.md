@@ -126,14 +126,13 @@ Extended Querying functionality to sort by direction as well as group and aggreg
 >
 > sfield ::=  'dept' | 'id' | 'instructor' | 'title' | 'uuid' | 'fullname' | 'shortname' | 'number' | 'name' | 'address' | 'type' | 'furniture' | 'href'
 >
-
-# Checkpoint 3
-
-Implement the server and frontend of the application. We made it compatible the sections kind, so users can view past sections.
->
 > idstring ::= [^_]+ // One or more of any character, except underscore.
 >
 > inputstring ::= [^*]* // Zero or more of any character, except asterisk.
 > 
 > applykey ::= [^_]+ // One or more of any character, except underscore.
+
+# Checkpoint 3
+
+Implement the server and frontend of the application. We made it compatible the sections kind, so users can view past sections.
 
