@@ -5,9 +5,7 @@ https://youtu.be/QO4Fbw4t08w
 
 A full stack development project for that queries through historical UBC course data
 
-Application demonstration upon request.
-
-Code directory private
+Code directory private to comply with course policy, can be sent upon request.
 
 # Checkpoint 0
 Implemented black box testing for our four main functions (addDataset, removeDataset, listDatasets, performQuery)
