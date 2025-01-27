@@ -3,7 +3,7 @@
 ### Link to view the full stack project.
 https://youtu.be/QO4Fbw4t08w
 
-A full stack development project for that queries through historical UBC course data
+Full stack development project that queries course data and produces interactive visualizations
 
 Code directory private to comply with course policy, can be sent upon request.
 
