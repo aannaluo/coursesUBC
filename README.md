@@ -3,7 +3,13 @@
 ### Link to view the full stack project.
 https://youtu.be/QO4Fbw4t08w
 
-Full stack development project that queries course data and produces interactive visualizations
+Full stack development project that queries course data and produces interactive visualizations 
+
+Backend built using Typescript
+
+Frontend built using React framework, including Bootstrap and MUI components
+
+Server built using node.js
 
 Code directory private to comply with course policy, can be sent upon request.
 
